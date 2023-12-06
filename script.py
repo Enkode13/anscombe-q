@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import seaborn.objects as so
 
+# load the data
 anscombe = sns.load_dataset('anscombe')
 print(anscombe.head())
 
